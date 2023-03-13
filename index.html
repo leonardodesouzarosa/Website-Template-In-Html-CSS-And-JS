@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Website Template</title>
+</head>
+
+<body>
+    <section class="container">
+        <nav>
+            <div class="logo">port<b>folio.</b></div>
+            <ul class="navItems">
+                <li><a href="#">home</a></li>
+                <li><a href="">skills</a></li>
+                <li><a href="">about</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText">Coder</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ducimus hic nemo, cum in iusto quos aut
+                    nihil blanditiis laudantium ea veniam tenetur quia, beatae quibusdam obcaecati, saepe eveniet
+                    architecto.</p>
+                <div class="btns">
+                    <button>Download CV</button>
+                    <button>Hire Me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="assets/image/splash.png" alt="foto de um spalsh painel" id="splash">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('.multiText', {
+            strings: ['coder', 'html', 'css', 'javascript'],
+            typeSpeed: 100,
+            loop: true,
+            backSpeed: 80,
+            backDelay: 1500,
+        });
+
+    </script>
+
+
+</body>
+
+</html>
